@@ -138,9 +138,9 @@ def uploaded():
         for well in lf.well:
             if well.descr.lower().find('null') != -1:
                 nullValue = well.value
-            elif well.descr.lower().find('company') != -1:
+            elif well.descr.lower().find('state') != -1 or well.descr.lower().find('country') != -1:
                 BU = well.value
-            elif well.descr.lower().find('well') != -1:
+            elif well.descr.lower().find('well name') != -1 or well.descr.lower().find('wellname') != -1:
                 wellname = well.value
             elif well.descr.lower().find('field') != -1:
                 asset = well.value
