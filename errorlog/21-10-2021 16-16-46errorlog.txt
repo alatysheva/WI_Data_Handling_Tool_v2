@@ -1,0 +1,53 @@
+Date: 2021-10-21
+
+
+File Information:
+================  ======================
+Parameter         Value
+================  ======================
+File Name         WSJ_WL_OP_1_2021-05-25
+File Type         las
+Index Type        Time
+Number of Curves  11
+Operation         RIH
+================  ======================
+
+
+General Information:
+===============  ===
+0                1
+===============  ===
+Business Unit
+Asset
+Service Company
+Well
+===============  ===
+
+
+Timestamp and WD tag information check:
+====================  ==========================
+Check                 Result
+====================  ==========================
+Timestamp             No timestamp - Depth Index
+Description Tag       No data
+Service Category Tag  No data
+Data Source Tag       No data
+====================  ==========================
+
+
+Mnemonic and Units Recognition:
+=======================  ==========  ======  ===========  ====================  ================  ===========  ============  ==========
+Curve                    Mnemonic    Unit    KDI Units    Mnemonic Structure    Equipment Type    Data Type    Run Number    Log Name
+=======================  ==========  ======  ===========  ====================  ================  ===========  ============  ==========
+Borehole Depth           DEPT        M       Not found    No                    Not found         Not found    Not found     Not found
+2 Elapsed Time           ETIM        s       s            No                    Not found         Not found    Not found     Not found
+3 Time                   TIME        s       s            No                    Not found         Not found    Not found     Not found
+4 Line Speed             LSPD        m/min   m/min        No                    Not found         Not found    Not found     Not found
+5 Tension                STEN        N       N            No                    Not found         Not found    Not found     Not found
+6 Accelerometer          ACC         m/s2    m/s2         No                    Not found         Not found    Not found     Not found
+7 Gamma Ray              GR          gAPI    gAPI         No                    Not found         Not found    Not found     Not found
+8 Casing Collar Locator  CCL         mV      mV           No                    Not found         Not found    Not found     Not found
+9 Temperature            TMP         degC    degC         No                    Not found         Not found    Not found     Not found
+10 Pressure              PRS         kPa     kPa          No                    Not found         Not found    Not found     Not found
+11 Compensation Temp     CTMP        degC    degC         No                    Not found         Not found    Not found     Not found
+=======================  ==========  ======  ===========  ====================  ================  ===========  ============  ==========
