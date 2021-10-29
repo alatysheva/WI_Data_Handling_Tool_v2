@@ -551,7 +551,7 @@ class CSVprocessing:
     def csvnumeric(self, df1):
         for col in df1.columns:
             if str(col).lower().find('time') == -1:
-                df1[col] = df1[col].astype('str')
+                #df1[col] = df1[col].astype('str')
                 df1[col] = df1[col].astype('float')
         return df1
 
