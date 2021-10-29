@@ -169,8 +169,8 @@ def uploaded():
             indexType = 'date time'
             startDateTimeIndex = lf.curves[0].data[0]
             endDateTimeIndex = lf.curves[0].data[len(lf.curves[0]) - 1]
-            timedelta = (datetime.datetime.strptime(startDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f-05:00") -\
-            datetime.datetime.strptime(endDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f-05:00"))
+            timedelta = (datetime.datetime.strptime(startDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f%z") -\
+            datetime.datetime.strptime(endDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f%z"))
             if timedelta.days < 0 or timedelta.seconds < 0:
                 direction = 'increasing'
             elif timedelta.days > 0 and timedelta.seconds > 0:
@@ -306,8 +306,8 @@ def uploaded():
             indexType = 'date time'
             startDateTimeIndex = df2[df2.columns[0]].iloc[0]
             endDateTimeIndex = df2[df2.columns[0]].iloc[-1]
-            timedelta = (datetime.datetime.strptime(startDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f-05:00") -\
-            datetime.datetime.strptime(endDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f-05:00"))
+            timedelta = (datetime.datetime.strptime(startDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f%z") -\
+            datetime.datetime.strptime(endDateTimeIndex, "%Y-%m-%dT%H:%M:%S.%f%z"))
             if timedelta.days < 0 or timedelta.seconds < 0:
                 direction = 'increasing'
             elif timedelta.days > 0 and timedelta.seconds > 0:
